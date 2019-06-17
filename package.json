@@ -34,16 +34,25 @@
         "theme": "dark"
     },
     "contributes": {
-        "languages": [{
-            "id": "procfile",
-            "aliases": ["Procfile", "procfile"],
-            "filenames": ["Procfile"],
-            "configuration": "./language-configuration.json"
-        }],
-        "grammars": [{
-            "language": "procfile",
-            "scopeName": "source.procfile",
-            "path": "./syntaxes/procfile.tmLanguage.json"
-        }]
+        "languages": [
+            {
+                "id": "procfile",
+                "aliases": [
+                    "Procfile",
+                    "procfile"
+                ],
+                "filenames": [
+                    "Procfile"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "procfile",
+                "scopeName": "source.procfile",
+                "path": "./syntaxes/procfile.tmLanguage.json"
+            }
+        ]
     }
 }
