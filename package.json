@@ -1,0 +1,49 @@
+{
+    "name": "procfile-support",
+    "displayName": "Procfile Support",
+    "description": "Procfile support for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "logerfo",
+    "engines": {
+        "vscode": "^1.35.0"
+    },
+    "homepage": "https://github.com/Logerfo/procfile-support/blob/master/README.md",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Logerfo/procfile-support.git"
+    },
+    "bugs": {
+        "url": "https://github.com/Logerfo/procfile-support/issues",
+        "email": "bruno@logerfo.tk"
+    },
+    "author": {
+        "email": "bruno@logerfo.tk",
+        "name": "Bruno Logerfo",
+        "url": "https://github.com/Logerfo"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "keywords": [
+        "procfile",
+        "heroku"
+    ],
+    "license": "MIT",
+    "galleryBanner": {
+        "color": "#181818",
+        "theme": "dark"
+    },
+    "contributes": {
+        "languages": [{
+            "id": "procfile",
+            "aliases": ["Procfile", "procfile"],
+            "filenames": ["Procfile"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "procfile",
+            "scopeName": "source.procfile",
+            "path": "./syntaxes/procfile.tmLanguage.json"
+        }]
+    }
+}

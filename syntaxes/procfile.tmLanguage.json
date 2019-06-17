@@ -1,0 +1,29 @@
+{
+    "$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "Procfile",
+	"scopeName": "source.procfile",
+	"fileTypes": [
+		"Procfile"
+	],
+	"patterns": [
+		{
+			"match": "(^[a-zA-Z0-9-]*)(:)\\s*(.*$)",
+			"captures": {
+				"1": {
+					"name": "variable.other.process-type.procfile"
+				},
+				"2": {
+					"name": "punctuation.separator.dictionary.key-value.procfile"
+				},
+				"3": {
+					"name": "source.shell.command.procfile",
+					"patterns": [
+						{
+							"include": "source.shell"
+						}
+					]
+				}
+			}
+		}
+	]
+}
