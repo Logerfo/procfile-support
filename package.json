@@ -10,7 +10,7 @@
     "homepage": "https://github.com/Logerfo/procfile-support/blob/master/README.md",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/Logerfo/procfile-support.git"
+        "url": "https://github.com/Logerfo/procfile-support.git"
     },
     "bugs": {
         "url": "https://github.com/Logerfo/procfile-support/issues",
